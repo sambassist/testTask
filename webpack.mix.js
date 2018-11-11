@@ -15,8 +15,10 @@ mix.stylus('src/styl/main.styl', 'public/css', {
         use: [
             require('rupture')()
         ]
-    }).sourceMaps()
-    .copy('src/img/*', 'public/img/');
+    }).sourceMaps();
+
+mix.copy('src/img/*', 'public/img/');
+mix.copyDirectory('src/fonts/', 'public/fonts/');
 
 mix.browserSync({
     proxy: process.env.MIX_WATCH_PROXY
