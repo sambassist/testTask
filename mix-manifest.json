@@ -2,5 +2,10 @@
     "/public/css/main.css": "/public/css/main.css",
     "/mix.js.map": "/mix.js.map",
     "/public/css/main.css.map": "/public/css/main.css.map",
-    "/public/img/logo.png": "/public/img/logo.png"
+    "/public/img/facebook.png": "/public/img/facebook.png",
+    "/public/img/instagram.png": "/public/img/instagram.png",
+    "/public/img/logo.png": "/public/img/logo.png",
+    "/public/img/pinterest.png": "/public/img/pinterest.png",
+    "/public/img/twitter.png": "/public/img/twitter.png",
+    "/public/img/VK_Logo.png": "/public/img/VK_Logo.png"
 }
