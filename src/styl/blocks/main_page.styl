@@ -1,0 +1,43 @@
+.main-page
+    width 100%
+    display flex
+    flex-direction row
+    justify-content space-around
+
+    &_block1
+        padding-bottom 100px
+
+    &__content-item
+        display inline-flex
+        flex-direction column
+        width 50%
+        text-align left
+        position relative
+
+        &_text
+            &:first-child
+                padding-right 20px
+
+            &:last-child
+                padding-left 20px
+
+        &_block1
+            position static
+
+            &:first-child
+                width 60%
+
+            &:last-child
+                width 40%
+
+    &__block1-image
+        display block
+        position absolute
+        top -230px
+        right -346px
+
+    &__block2-image
+        display block
+        position absolute
+        left 0
+        top 0
