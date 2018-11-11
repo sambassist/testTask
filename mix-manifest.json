@@ -2,10 +2,5 @@
     "/public/css/main.css": "/public/css/main.css",
     "/mix.js.map": "/mix.js.map",
     "/public/css/main.css.map": "/public/css/main.css.map",
-    "/public/img/cups.png": "/public/img/cups.png",
-    "/public/img/drinks.png": "/public/img/drinks.png",
-    "/public/img/step_1.png": "/public/img/step_1.png",
-    "/public/img/step_2.png": "/public/img/step_2.png",
-    "/public/img/step_3.png": "/public/img/step_3.png",
-    "/public/img/step_4.png": "/public/img/step_4.png"
+    "/public/img/logo.png": "/public/img/logo.png"
 }
