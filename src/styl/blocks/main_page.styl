@@ -1,0 +1,170 @@
+.main-page
+    width 100%
+    display flex
+    flex-direction row
+    justify-content space-around
+    @media screen and (max-width 767px)
+        flex-direction column
+
+    &_triple
+        @media screen and (max-width 1300px)
+            flex-wrap wrap
+        @media screen and (max-width 768px)
+            justify-content center
+
+    &_last
+        align-items center
+        flex-direction row
+        @media screen and (max-width 991px)
+            flex-direction column
+
+    &_block1
+        padding-bottom 100px
+
+    &__content-item
+        display inline-flex
+        flex-direction column
+        width 50%
+        text-align left
+        position relative
+        box-sizing border-box
+        @media screen and (max-width 767px)
+            width 100%
+
+        &_empty
+            @media screen and (max-width 767px)
+                display none
+
+        &_last
+            &:first-child
+                padding-right 20px
+                width 60%
+                @media screen and (max-width 991px)
+                    width 100%
+                    text-align center
+                    margin-bottom 30px
+            &:last-child
+                width 40%
+                @media screen and (max-width 991px)
+                    width 100%
+
+        &_once
+            width 100%
+
+        &_triple
+            width 320px
+            background-color $lightGrayBackgroundColor
+            border-radius 10px
+            display inline-flex
+            flex-direction column
+            text-align center
+            padding 20px 0 0 0
+            @media screen and (max-width 1300px)
+                padding 0
+                margin 0 20px
+                &:first-child
+                    margin 0
+                &:last-child
+                    margin 20px 0 0 0
+            @media screen and (max-width 1300px)
+                margin 20px 0 0 0
+            @media screen and (max-width 767px)
+                margin 20px auto 0
+                &:first-child
+                    margin 20px auto 0
+                &:last-child
+                    margin 20px auto 0
+            @media screen and (max-width 400px)
+                width 280px
+
+        &_text
+            &:first-child
+                padding-right 20px
+                @media screen and (max-width 767px)
+                    padding 0
+
+            &:last-child
+                padding-left 20px
+                @media screen and (max-width 767px)
+                    padding 0
+
+        &_block1
+            position static
+
+            &:first-child
+                width 60%
+                @media screen and (max-width 767px)
+                    width 100%
+
+            &:last-child
+                width 40%
+                @media screen and (max-width 767px)
+                    display none
+
+    &__block1-image
+        display block
+        position absolute
+        top -360px
+        left 444px
+        @media screen and (max-width 1220px)
+            left 500px
+
+    &__block2-image
+        display block
+        position absolute
+        left 120px
+        top 0
+
+    &__block3-image
+        display block
+        position absolute
+        left 80px
+        top 40px
+
+    &__triple-block
+        padding 0
+        display flex
+        justify-content center
+        flex-direction row
+        align-items center
+
+    &__triple-number-info
+        padding-left 10px
+
+    &__triple-number
+        color $blueColor
+        font-size 84px
+        font-weight 800
+
+    &__triple-stq
+        color $darkenBlueColor
+        font-size 28px
+        font-weight 800
+
+    &__triple-price
+        color $darkenBlueColor
+        font-weight 500
+        font-size 18px
+
+    &__triple-info
+        font-size 14px
+        font-weight 400
+        color $lightTextColor
+        text-transform uppercase
+
+        &_details
+            padding 40px
+            text-align left
+            text-transform none
+            line-height 25px
+
+    &__once-string
+        color $darkBlueColor
+        font-size 28px
+        font-weight 600
+        @media screen and (max-width 767px)
+            font-size 22px
+            margin 10px 0
+
+        span
+            font-weight 400

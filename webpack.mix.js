@@ -11,15 +11,14 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.stylus('src/styl/main.styl', 'menu/css', {
+mix.stylus('src/styl/main.styl', 'public/css', {
         use: [
             require('rupture')()
         ]
     }).sourceMaps();
 
-// mix.copy('resources/assets/favicon/*', 'public/favicon/');
-// mix.copy('resources/assets/packages/', 'public/packages/');
+mix.copy('src/img/*', 'public/img/');
 
-// mix.browserSync({
-//     proxy: process.env.MIX_WATCH_PROXY
-// });
+mix.browserSync({
+    proxy: process.env.MIX_WATCH_PROXY
+});
