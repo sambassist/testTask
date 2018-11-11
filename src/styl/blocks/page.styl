@@ -1,8 +1,14 @@
 .page
+    max-width 1360px
+    margin 0 auto
+    position relative
+
     &__content
         box-sizing border-box
         width 100%
         padding 30px 140px
+        @media screen and (max-width 991px)
+            padding 20px 60px
         @media screen and (max-width 767px)
             padding 15px 10px
 
@@ -16,14 +22,21 @@
         &_main-page
             padding-top 100px
             padding-bottom 180px
+            @media screen and (max-width 767px)
+                padding-top 20px
+                padding-bottom 20px
 
         &_header
             padding 52px 42px
+            @media screen and (max-width 991px)
+                padding 20px 60px
             @media screen and (max-width 767px)
                 padding 15px 10px
 
         &_footer
             padding 52px 0 52px 140px
+            @media screen and (max-width 991px)
+                padding 20px 60px
             @media screen and (max-width 767px)
                 padding 15px 10px
 

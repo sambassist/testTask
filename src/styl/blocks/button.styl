@@ -9,6 +9,8 @@
     font-weight 600
     font-size 24px
     transition all 100ms ease-in-out
+    @media screen and (max-width 767px)
+        margin 0 auto
 
     &:hover
         opacity 0.7
@@ -16,3 +18,7 @@
     &:active
         box-shadow 0 0 20px #b77ffc inset
         opacity 1
+
+    &_last
+        @media screen and (max-width 991px)
+            margin 0 auto
