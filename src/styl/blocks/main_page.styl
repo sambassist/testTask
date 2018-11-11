@@ -13,6 +13,17 @@
         width 50%
         text-align left
         position relative
+        box-sizing border-box
+
+        &_triple
+            width 320px
+            background-color $lightGrayBackgroundColor
+            border-radius 10px
+            display inline-flex
+            flex-direction column
+            //justify-content center
+            text-align center
+            padding 20px
 
         &_text
             &:first-child
@@ -39,5 +50,48 @@
     &__block2-image
         display block
         position absolute
-        left 0
+        left 120px
         top 0
+
+    &__block3-image
+        display block
+        position absolute
+        left 80px
+        top 40px
+
+    &__triple-block
+        padding 0
+        display flex
+        justify-content center
+        flex-direction row
+        align-items center
+
+    &__triple-number-info
+        padding-left 10px
+
+    &__triple-number
+        color $blueColor
+        font-size 84px
+        font-weight 800
+
+    &__triple-stq
+        color $darkenBlueColor
+        font-size 28px
+        font-weight 800
+
+    &__triple-price
+        color $darkenBlueColor
+        font-weight 500
+        font-size 18px
+
+    &__triple-info
+        font-size 14px
+        font-weight 400
+        color $lightTextColor
+        text-transform uppercase
+
+        &_details
+            padding 40px
+            text-align left
+            text-transform none
+            line-height 25px
